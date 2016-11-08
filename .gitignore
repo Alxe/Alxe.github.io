@@ -1,4 +1,5 @@
 # Exclude python virtualenv
 venv/
 
-
+# Exclude statik's "compiled" (public/) folder
+statik/public/*
