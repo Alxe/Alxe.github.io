@@ -1,0 +1,9 @@
+Jinja2==2.8
+livereload==2.4.1
+Markdown==2.6.6
+MarkupSafe==0.23
+PyYAML==3.11
+six==1.10.0
+SQLAlchemy==1.0.14
+statik==0.7.0
+tornado==4.4.2
