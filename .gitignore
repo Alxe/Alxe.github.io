@@ -3,3 +3,7 @@ venv/
 
 # Exclude statik's "compiled" (public/) folder
 statik/public/*
+
+# Exclude Sublime Text project files
+*.sublime-project
+*.sublime-workspace
