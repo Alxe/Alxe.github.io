@@ -15,4 +15,4 @@ This project also serves as a way to prepare a seminar and, possibly, give a tal
 
 [statik-website]: https://getstatik.com
 [jinja-website]: http://jinja.pocoo.org
-[sqlachemy-website]: http://sqlalchemy.org
+[sqlalchemy-website]: http://sqlalchemy.org
