@@ -1,0 +1,5 @@
+path: /about/
+template: about
+context:
+  static:
+    page-name: About

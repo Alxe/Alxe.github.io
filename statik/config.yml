@@ -1,2 +1,9 @@
-project-name: Your project name
-base-path: /
+project-name: alxe.github.io
+base-path: / # https://alxe.github.io/
+context:
+  static:
+    site-title: My personal webpage
+    personal-info:
+      contact-email: alxegod@gmail.com
+  dynamic:
+    generated_on: datetime.now()
