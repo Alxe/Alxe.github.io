@@ -5,5 +5,6 @@ context:
     site-title: My personal webpage
     personal-info:
       contact-email: alxegod@gmail.com
+      telephone-no: (+34) 610 65 36 60
   dynamic:
     generated_on: datetime.now()

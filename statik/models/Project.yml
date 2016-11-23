@@ -1,0 +1,7 @@
+# models/Project.yml
+name: String
+description: String
+owner: String # Could be a custom model, `Author`
+website: String
+version: Integer
+active: Boolean

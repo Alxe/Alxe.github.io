@@ -1,0 +1,7 @@
+# data/Project/top_secret.yml
+name: Reveal.js Slides
+description: Slides for a reveal.js presentation
+owner: Alejandro Núñez Pérez # If a custom model, put id/pk
+website: http://alxe.github.io/
+version: 1
+active: true

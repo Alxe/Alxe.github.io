@@ -1,0 +1,8 @@
+# views/projects.yml
+path: /projects/
+template: projects
+context:
+  static:
+    section-title: Mis proyectos
+  dynamic:
+    projects: session.query(Project).filter(Project.active).all()

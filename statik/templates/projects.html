@@ -1,0 +1,16 @@
+<h1>{{ section_title | default("Título por defecto") }}</h1>
+{% if projects %}
+<table>
+  <!-- Table head -->
+  {% for p in projects %}
+  <tr>
+    <td>{{ p.name }}</td>
+    <td>{{ p.description }}</td>
+    <td>{{ p.version }}</td>
+    <td>{{ p.website | urlify | default('n/a', true) }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% else %}
+<p>No hay proyectos</p>
+{% endif %}

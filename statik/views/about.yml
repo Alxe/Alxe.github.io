@@ -1,4 +1,4 @@
-path: /about/
+path: /about
 template: about
 context:
   static:
