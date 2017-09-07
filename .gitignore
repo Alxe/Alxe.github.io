@@ -1,12 +1,9 @@
-# Exclude python virtualenv
-venv/
-
 # Exclude python cache and compiled files
 *.pyc
 */__pycache__/*
 
-# Exclude statik's "compiled" (public/) folder
-statik/public/*
+# Exclude python virtualenv
+.statik/venv
 
 # Exclude Sublime Text project files
 *.sublime-project
