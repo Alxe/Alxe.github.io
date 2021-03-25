@@ -10,7 +10,7 @@ mlalchemy==0.2.1
 pathtools==0.1.2
 pystache==0.5.4
 python-slugify==1.2.4
-PyYAML==3.12
+PyYAML==5.4
 six==1.10.0
 SQLAlchemy==1.1.14
 statik==0.18.0
