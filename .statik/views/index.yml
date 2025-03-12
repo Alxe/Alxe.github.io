@@ -1,5 +1,0 @@
-path: /
-template: index
-context:
-  static:
-    page-name: Index
