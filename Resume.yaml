@@ -20,26 +20,30 @@ cv:
         experience across multiple roles and a hunger for learning new things.
       - When it comes to work, I am most interested in
         information transformation pipelines, distributed systems, and
-        knowledge sharing.
+        knowledge sharing. Particularly, I have a soft spot for Java and the
+        JVM ecosystem.
       - Personally, my hobbies include finances, anything related to maps, and
         board games.
-    skills and credentials:
+    skills and qualifications:
       - label: Customer Support Veteran
         details:
           Extensive experience in managing customer expectations, providing
           technical solutions, and ensuring customer satisfaction in
           high-pressure scenarios.
       - label: Software Development Expertise
-        details: Well-versed in Java, Python, and C/C++ development, testing,
-          packaging and distribution for diverse projects and applications.
+        details: Well-versed in development, testing, packaging and distribution
+          for diverse projects and applications. Particularly experienced in Java,
+          Python and C/C++ ecosystems.
+      - label: Distributed Systems and Networking
+        details:
+          Strong understanding of distributed systems, networking protocols,
+          and real-time data processing, with hands-on experience in
+          implementing and debugging complex systems.
       - label: Quality Assurance Focus
         details:
-          Strong advocate for test-first and quality-oriented development,
+          Strong advocate for test-driven and quality-oriented development,
           with the ability to adapt and balance quality considerations against
           project constraints.
-      - label: DevOps and CI/CD Pipelines
-        details: Experienced in designing, building, and maintaining CI/CD
-          pipelines to streamline software quality and delivery processes.
     professional experience:
       - company: Real-Time Innovations
         position: Senior Software Engineer
@@ -52,8 +56,9 @@ cv:
         highlights:
           - Maintained an internal, distributed testing Python framework for
             RTI products.
-          - Retrofitted the Java API while keeping backwards compatibility,
-            reduced the number of known memory leaks by >90%.
+          - Improved the Java API by introducing new features to align with
+            other APIs. Also identified memory leaks and fixing >90%
+            of the reported issues.
           - Developed a new internal web server for storing and visualizing
             performance data using FastAPI, with a MongoDB database backend.
       - company: Real-Time Innovations
@@ -62,11 +67,17 @@ cv:
         start_date: 2019-11
         end_date: 2024-04
         location: Hybrid (Granada or Remote)
-        summary: Part of the Support team, providing low-level, technical support to worldwide customers across multiple industry verticals, with a focus on the EMEA and APAC regions.
+        summary:
+          Part of the Support team, providing low-level, technical support
+          to worldwide customers across multiple industry verticals, with a
+          focus on the EMEA and APAC regions.
         highlights:
-          - Resolved customer time-sensitive escalations on critical deployments.
-          - Maintained multiple branches of support releases, built and delivered patches.
-          - Led newcomers through onboarding, taught soft and hard skills.
+          - Resolved customer time-sensitive escalations on critical
+            deployments.
+          - Maintained multiple branches of support releases, built and
+            delivered patches.
+          - Mentored new hires and interns, providing training on
+            troubleshooting and debugging techniques.
     education:
       - institution: Ediae, Cámara de Comercio
         area: Business
