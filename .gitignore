@@ -1,10 +1,5 @@
-# Exclude python cache and compiled files
-*.pyc
-*/__pycache__/*
 
-# Exclude python virtualenv
-.statik/venv
-
-# Exclude Sublime Text project files
-*.sublime-project
-*.sublime-workspace
+.DS_Store
+*venv/
+*vscode/
+*output/

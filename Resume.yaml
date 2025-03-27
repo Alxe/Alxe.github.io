@@ -1,7 +1,7 @@
 locale:
   language: en
 rendercv_settings:
-  date: '2025-03-12'
+  date: "2025-03-27"
   bold_keywords: []
 cv:
   name: Alejandro Núñez Pérez
@@ -16,16 +16,57 @@ cv:
       username: alxe
   sections:
     about me:
-      - Hello! I'm Alejandro, a Software Engineer with over
-        five years of experience across multiple roles. These
-        include technical Support with a focus on personal
-        interaction and management, and actual Development
-        for both traditionally and as-a-Service deployed
-        software, using different stacks.
-      - When it comes to work, I am most interested in building
-        information transformation pipelines. But overall, I am
-        happy with taking on new challenges and sharing my own
-        knowledge with my peers.
+      - Hello! I'm Alejandro, a Software Engineer with over five years of
+        experience across multiple roles and a hunger for learning new things.
+      - When it comes to work, I am most interested in
+        information transformation pipelines, distributed systems, and
+        knowledge sharing.
+      - Personally, my hobbies include finances, anything related to maps, and
+        board games.
+    skills and credentials:
+      - label: Customer Support Veteran
+        details:
+          Extensive experience in managing customer expectations, providing
+          technical solutions, and ensuring customer satisfaction in
+          high-pressure scenarios.
+      - label: Software Development Expertise
+        details: Well-versed in Java, Python, and C/C++ development, testing,
+          packaging and distribution for diverse projects and applications.
+      - label: Quality Assurance Focus
+        details:
+          Strong advocate for test-first and quality-oriented development,
+          with the ability to adapt and balance quality considerations against
+          project constraints.
+      - label: DevOps and CI/CD Pipelines
+        details: Experienced in designing, building, and maintaining CI/CD
+          pipelines to streamline software quality and delivery processes.
+    professional experience:
+      - company: Real-Time Innovations
+        position: Senior Software Engineer
+        date:
+        start_date: 2024-04
+        end_date: present
+        location: Hybrid (Granada or Remote)
+        summary: Part of the API, later GPP development teams focused on the
+          Connext Professional products.
+        highlights:
+          - Maintained an internal, distributed testing Python framework for
+            RTI products.
+          - Retrofitted the Java API while keeping backwards compatibility,
+            reduced the number of known memory leaks by >90%.
+          - Developed a new internal web server for storing and visualizing
+            performance data using FastAPI, with a MongoDB database backend.
+      - company: Real-Time Innovations
+        position: Software Engineer
+        date:
+        start_date: 2019-11
+        end_date: 2024-04
+        location: Hybrid (Granada or Remote)
+        summary: Part of the Support team, providing low-level, technical support to worldwide customers across multiple industry verticals, with a focus on the EMEA and APAC regions.
+        highlights:
+          - Resolved customer time-sensitive escalations on critical deployments.
+          - Maintained multiple branches of support releases, built and delivered patches.
+          - Led newcomers through onboarding, taught soft and hard skills.
     education:
       - institution: Ediae, Cámara de Comercio
         area: Business
@@ -34,8 +75,7 @@ cv:
         start_date: 2024-11
         end_date: present
         location: Granada, Spain
-        summary:
-          General MBA focused on wide-area knowledge of managing a business, including Strategy, Marketing and Finances.
+        summary: General MBA focused on wide-area knowledge of managing a business, including Strategy, Marketing and Finances.
       - institution: Universidad de Granada
         area: Computer Science
         degree: BS
@@ -43,47 +83,9 @@ cv:
         start_date: 2015-09
         end_date: 2019-09
         location: Granada, Spain
-        summary:
-          Basics of Computer Science, including Algorithm Design, Data Structures, Networking and Distributed Systems.
+        summary: Basics of Computer Science, including Algorithm Design, Data Structures, Networking and Distributed Systems.
         highlights:
           - Honors in Modern Multi-paradigm Programming.
-    experience:
-      - company: Real-Time Innovations
-        position: Senior Software Engineer
-        date:
-        start_date: 2024-04
-        end_date: present
-        location: Hybrid (Granada or Remote)
-        summary:
-          Part of the API, later GPP development teams focused on the Connext Professional products.
-        highlights:
-          - Maintained an internal, distributed testing Python framework for RTI products.
-          - Retrofitted the Java API while keeping backwards compatibility, reduced the number of known memory leaks by >90%.
-          - Developed a new internal web server for storing performance data using FastAPI, with a MongoDB database backend.
-      - company: Real-Time Innovations
-        position: Software Engineer
-        date:
-        start_date: 2019-11
-        end_date: 2024-04
-        location: Hybrid (Granada or Remote)
-        summary:
-          Part of the Support team, providing low-level, technical support to worldwide customers across multiple industry verticals, with a focus on the EMEA and APAC regions.
-        highlights:
-          - Resolved customer time-sensitive escalations on critical deployments.
-          - Maintained multiple branches of support releases, built and delivered patches.
-          - Led newcomers through onboarding, taught soft and hard skills.
-    hard skills:
-      - label: JVM
-        details: Very well-versed in Java, have dabbled with Kotlin, Scala and Groovy. Familiar with JVM internals and JNI.
-      - label: Python
-        details: Very well-versed in Python and popular frameworks. Built and internally distributed multiple packages.
-      - label: JavaScript
-        details: Acquainted with the language and Node-specific FFI packages such as Koffi.
-    soft skills:
-      - label: Communication
-        details: Well versed in written and spoken communication, internal or external.
-      - label: People Management
-        details: Acquainted in mentoring and managing people.
 design:
   theme: engineeringclassic
   page:
@@ -102,7 +104,7 @@ design:
     use_external_link_icon: true
   header:
     name_font_size: 28pt
-    separator_between_connections: '•'
+    separator_between_connections: "•"
     use_urls_as_placeholders_for_connections: true
     alignment: center
   section_titles:
